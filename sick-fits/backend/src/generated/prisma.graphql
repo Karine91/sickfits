@@ -2375,7 +2375,7 @@ input UserCreateInput {
     password: String!
     name: String!
     resetToken: String
-    resetTokenExpiry: String
+    resetTokenExpiry: Float
     permissions: UserCreatepermissionsInput
     orders: OrderCreateManyWithoutUserInput
     cart: CartItemCreateManyWithoutUserInput
